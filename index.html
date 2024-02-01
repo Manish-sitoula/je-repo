@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Sitoula</title>
+    <script src="https://kit.fontawesome.com/b2d7024fe1.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            height: 100vh;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            overflow: hidden;
+        }
+        .mypic {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            background-color: red;
+            background-image: url(pic.JPG);
+            background-position: center;
+            background-size: cover;
+            border: 2px solid green;
+        }
+        .name {
+            margin-top: 10px;
+        }
+        .icons {
+            margin-top: 10px;
+        }
+        .my-project-button {
+            margin-top: 20px;
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mypic"></div>
+    <div class="name"><h2>MANISH SITOULA</h2></div>
+    <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100079095275136" target="_blank"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #193ed2;"></i></a>&nbsp;
+        <a href="https://www.instagram.com/manish.sitoula/" target="_blank"><i class="fa-brands fa-instagram fa-2xl" style="color: #bc2f20;"></i></a>
+    </div>
+    <button class="my-project-button" onclick="openTicTacToePage()">My Project</button>
+
+    <script>
+        function openTicTacToePage() {
+            window.open("my_project.html", "_blank");
+        }
+    </script>
+</body>
+</html>
